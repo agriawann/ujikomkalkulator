@@ -1,0 +1,81 @@
+/* calculator bg-light */
+
+.calculator {
+    max-width: 400px;
+    margin: auto;
+    border: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.599);
+}
+
+.display {
+    font-size: 1.5rem;
+    height: 3rem;
+    text-align: right;
+}
+
+.btn-number {
+    background-color: white;
+    color: black;
+}
+
+.btn-number:hover {
+    background-color: rgb(228, 225, 225);
+}
+
+.btn-operator {
+    background-color: rgb(255, 208, 0);
+    color: black;
+}
+
+.btn-operator:hover {
+    background-color: rgb(255, 230, 0);
+}
+
+.btn-clear, .btn-clear-history {
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.btn-clear:hover, .btn-clear-history:hover {
+    background-color: rgb(255, 41, 41);
+}
+
+/* dark-mode */
+body.dark-mode {
+    background-color: rgb(24, 24, 24);
+    color: rgb(255, 255, 255);
+}
+
+body.dark-mode .card {
+    background-color: rgb(39, 38, 38);
+    color: rgb(255, 255, 255);
+}
+
+body.dark-mode .btn-number{
+    background-color: rgb(31, 30, 30);
+    color: rgb(255, 255, 255);
+}
+
+body.dark-mode .btn-number:hover{
+    background-color: rgb(43, 43, 43);
+    color: rgb(255, 255, 255);
+}
+
+body.dark-mode .btn-operator{
+    background-color: rgb(255, 208, 0);
+    color: black;
+}
+
+body.dark-mode .btn-operator:hover {
+    background-color: rgb(255, 230, 0);
+}
+
+body.dark-mode .btn-clear, body.dark-mode .btn-clear-history{
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+body.dark-mode .btn-clear:hover, body.dark-mode .btn-clear-history:hover{
+    background-color: rgb(255, 41, 41);
+}
